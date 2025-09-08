@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+   int x,y,a,p;;
+   
+  
+  
+   
+   
+   cout<<"introducir numerador"<<endl;
+cin>> x;
+   cout<<"introducir denominador"<<endl;
+  
+   cin>>y;
+   cout<<"introducir entero"<<endl;
+   cin>>a;
+   p=((x*a)+y);
+   cout<<"mi respuesta es:"<<p<<"/"<<y;
+    return 0;
+}
