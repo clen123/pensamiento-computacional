@@ -15,7 +15,8 @@ cin>> x;
    cin>>y;
    cout<<"introducir entero"<<endl;
    cin>>a;
-   p=((x*a)+y);
+   p=((y*a)+x);
    cout<<"mi respuesta es:"<<p<<"/"<<y;
     return 0;
+
 }
