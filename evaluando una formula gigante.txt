@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main()
+{
+
+    float x,y,z,a,b;
+
+std::cout << "valor 1:" << std::endl;
+std::cin >> x;
+std::cout << "valor 2:" << std::endl;
+std::cin >> y;
+std::cout << "valor 3" << std::endl;
+std::cin >> z;
+
+a=((2*x)+y)/(z)*((y*y*y)-z);
+b=(x+(2*y)+(3*z))/(z-(2*y)-(3*x))+(x*x)+(z*z);
+std::cout << "el valor es:" <<a/b;
+
+
+
+
+
+
+
+    return 0;
+}
