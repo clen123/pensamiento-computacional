@@ -1,0 +1,42 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int L,b,c,oper,h;
+cout <<"1:area del cuadrado" << std::endl;
+
+cout <<"2:area del rectangulo"  << std::endl;
+
+cout << "3:areal del triangulo" << std::endl;
+
+cout <<"4:salir"  << std::endl;
+
+
+
+std::cin >>oper>>L>>b>>h;
+
+switch (oper)
+ {  
+    case 1 : cout <<"cuadrado:";
+    c=L*L;
+    cout<<c;
+    break;
+    case 2 : cout <<"rectangulo:" ;break;
+    c=b*h;
+    cout<<c;
+    break;
+    case 3 : cout <<"triangulo:" ;
+   c=(b*h)/2;
+    cout<<c;
+    break;
+    case 4 : cout << "ADIOS:" ;
+    
+    break;
+    default :cout << "invalido";
+
+ }
+  
+
+    return 0;
+}
