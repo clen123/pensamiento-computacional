@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int clave,oper,m,c;
+cout<<"12:america del norte:"<<endl;
+cout<<"15:america del norte:"<<endl;
+cout<<"19:america del norte:"<<endl;
+cout<<"23:america del norte:"<<endl;
+cout<<"25:america del norte:"<<endl;
+cout<<"29:america del norte:"<<endl;
+
+std::cin >>oper>>m;
+
+switch (oper)
+ {  
+    case 12 : cout <<"america del norte:";
+    c=m*2;
+    cout<<c;
+    break;
+    case 15 : cout <<"america central:" ;break;
+    c=m*2.2;
+    cout<<c;
+    break;
+    case 18 : cout <<"america del sur:" ;
+   c=m*4.5;
+    cout<<c;
+    break;
+     case 19 : cout <<"europa:" ;
+   c=m*3.5;
+    cout<<c;
+    break;
+     case 23 : cout <<"asia:" ;
+   c=m*6;
+    cout<<c;
+    break;
+     case 25 : cout <<"africa:" ;
+   c=m*6;
+    cout<<c;
+    break;
+     case 29 : cout <<"oceania:" ;
+   c=m*5;
+    cout<<c;
+    break;
+    case 8 : cout << "ADIOS:";
+break;
+    default :cout << "invalido";
+
+ }
+  
+
+    return 0;
+}
