@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,oper;
+cout <<"1:suma" << std::endl;
+
+cout <<"2:resta"  << std::endl;
+
+cout << "3:multiplicacion" << std::endl;
+
+cout <<"4:division"  << std::endl;
+
+
+
+std::cin >>oper>>a>>b;
+
+switch(oper)
+ {  
+    case 1 : cout <<"suma:";
+    c=a+b;
+    cout<<c;
+    break;
+    case 2 : cout <<"resta:" ;break;
+    c=a-b;
+    cout<<c;
+    break;
+    case 3 : cout <<"multiplicacion:" ;
+   c=a*b;
+    cout<<c;
+    break;
+    case 4 : cout << "division:" ;
+    c=a/b;
+    cout<<c;
+    break;
+    //default :cout << "error";
+
+ }
+  
+
+    return 0;
+}
