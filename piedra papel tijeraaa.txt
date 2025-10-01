@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib> // Para usar rand() y srand()
+#include <ctime>   // Para usar time()
+using namespace std;
+int main() {
+   
+    // Inicializar la semilla para la generación aleatoria
+    srand(time(0));
+    int computadora,a;
+    computadora = rand() % 3 + 1;
+
+std::cout << "1=piedra" << std::endl;
+std::cout << "2=tijeras" << std::endl;
+std::cout << "3=papel" << std::endl;
+std::cin >> a;
+
+    // Mostrar la elección de la computadora
+    cout << "La computadora eligió: "<<computadora;
+
+
+    return 0;
+}
