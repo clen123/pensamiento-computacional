@@ -1,0 +1,29 @@
+#include <cmath>
+#include <iostream>
+using namespace std;
+int main()
+{
+int n,base=1, ex=n;
+
+
+
+
+std::cout << "introduce un nuemro" << std::endl;
+std::cin >> n;
+
+while(n<=0){
+    int base=1;
+    int ex=n;
+    double resultado=pow(base,ex);
+    base++;
+    
+    ex--;
+    
+    
+    
+    
+}
+
+
+std::cout << base << endl;
+std::cout << ex << std::endl;
